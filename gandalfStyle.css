@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wanted {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.rewardInfo {
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.amountBox {
+    display: inline-block;
+    width: 70%;
+}
+.amount {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px 5px 10px 5px;    
+}
+
+.highlight {
+    color: orange;
+}
+
+.name {
+    color: white;
+    font-size: 70px;
+    margin-top:20%;
+}
+
+/* hover effect */
+.wanted:hover .amount {
+    display: none;
+
+}
+.wanted:hover .name {
+    font-size: 30px;
+    margin-top: 90%;
+}
