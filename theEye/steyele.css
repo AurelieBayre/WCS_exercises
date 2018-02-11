@@ -1,17 +1,13 @@
-.test {
-    height: 80vw;
-    width: 80vw;
-    
-    background-color: brown;
-    margin-left:10px;
-    margin-top: 10px;
+body {
+    background-color: lightgray;
 }
 
-.black, .yellow {
-    
-    height: 8vw;
-  
 
+
+/* Setting the colors */
+
+.white {
+    background-color: white;
 }
 
 .black {
@@ -20,5 +16,26 @@
 
 .yellow {
     background-color: yellow;
-    margin-top: 15px;
+
 }
+
+.orange {
+    background-color: orange;
+
+}
+
+.red {
+    background-color: red;
+
+}
+
+/*setting size for squares */
+
+.square {
+    height: calc(100vw / 12);
+}
+
+/* setting sizes for top-line squares */
+
+
+/* setting sizes for bottom-line squares */
