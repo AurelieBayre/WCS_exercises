@@ -1,11 +1,10 @@
 body {
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 .cadre {
-    width: 80%;
+    width: 100%;
     margin-top: 5vw;
-    margin-left: 12.5%;
-    background-color: lavenderblush;
+    margin-left: 5vw;
 }
 /* Setting the colors */
 
@@ -29,40 +28,15 @@ body {
 
 .red {
     background-color: red;
-
 }
 
-/*setting size for squares */
+/*setting dimensions and placement properties for squares */
 
 .square {
-    height: calc(80vw / 12);
-    border: 1px solid lightgray;
-      
+    border: 1px solid whitesmoke;
+    float: left;
+    height: calc(100vw / 24);
+    width: calc(100vw / 24);
+       
 }
 
-
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-.square {
-    border: none;
-}
-}
-
-
-/* setting sizes for first-column starting squares
-in order to center the picture. */
-/* hum hum doesn't work on very narrow screen. 
-Will just submit an un centered pic for now. */
-
-/* how this solution works by the way: 
-ex for line 8, which begins with 2 blank spaces:
-    <div class="col-xs-2 square">                
-    </div>
-    <div class="col-xs-1 black first square">                
-    </div>
-
-
-.first {
-    margin-left: calc(100vw / 24);
-}
-
-*/
