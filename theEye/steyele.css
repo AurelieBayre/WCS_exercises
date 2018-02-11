@@ -2,8 +2,6 @@ body {
     background-color: lightgray;
 }
 
-
-
 /* Setting the colors */
 
 .white {
@@ -33,9 +31,20 @@ body {
 
 .square {
     height: calc(100vw / 12);
+    border: 1px solid lightgray;
+    
+    
 }
 
-/* setting sizes for top-line squares */
+.test {
+    width: 100%;
+    margin-top: 10px;
+}
+/* setting sizes for first-column starting squares
+in order to center the picture. */
+
+.first {
+    margin-left: calc(100vw / 24);
+}
 
 
-/* setting sizes for bottom-line squares */
