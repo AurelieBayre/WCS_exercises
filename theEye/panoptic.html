@@ -18,7 +18,20 @@
                 <div class="row">
                 <!-- Nota Bene
                     columns are in fact not necessary for this 
-                    but someone at school asked me to use columns...-_-
+                    but someone at school asked me to use the column funcion...-_-
+                    So I chose to do it with only 1col/row. 
+But another student succeeded in using several cols/row : 
+https://gist.github.com/jeromelegrand/34aaabdde2762e3ec1dcce4784b5275b
+you can optimise his code with my calc trick:
+
+add this to body: 
+    .half {
+        width: 50%;
+    }
+and change this for rows:
+    .row {
+        height: calc(8.33vw / 2);
+    }
                 -->
                     <div class="col-xs-12">
                     <div class="black square"></div>  
