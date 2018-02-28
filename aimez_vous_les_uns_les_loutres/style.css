@@ -1,0 +1,28 @@
+body {
+    position: relative;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+footer {
+    position: absolute;
+    font-size: 0.8em;
+    bottom: 5px;
+    font-size: italic;
+}
+
+header {
+    text-align: center;
+    margin: 3em;
+}
+
+section p, section img {
+    border:3px solid orange;
+}
+section img {
+    margin-bottom: 15px;
+}
+
+section p {
+    background-color: white;
+}
