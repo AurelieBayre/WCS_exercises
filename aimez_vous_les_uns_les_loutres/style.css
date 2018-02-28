@@ -9,9 +9,12 @@ footer {
     font-size: 0.8em;
     bottom: 5px;
     font-size: italic;
-    margin-left: auto;
-    margin-right: auto;
-    
+    width: 100%;  
+
+}
+footer p {
+    text-align: center;
+   
 }
 
 header {
