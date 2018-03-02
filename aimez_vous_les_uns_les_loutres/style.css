@@ -1,7 +1,7 @@
 body {
     position: relative;
     height: 100vh;
-    background: whitesmoke;
+    background: rgba(255, 165, 0, 0.2);
 }
 
 footer {
@@ -24,6 +24,8 @@ header {
 
 section p, section figure {
     border:3px solid orange;
+    background: rgba(98, 182, 185, 0.2);
+    color: rgb(28, 63, 129);
 }
 section figure {
     margin-bottom: 15px;
@@ -37,7 +39,6 @@ figcaption {
 }
 
 section p {
-    background-color: white;
-    padding: 1em;
-        
+    padding: 1em;        
 }
+
