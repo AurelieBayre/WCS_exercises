@@ -22,11 +22,18 @@ header {
     margin: 3em;
 }
 
-section p, section img {
+section p, section figure {
     border:3px solid orange;
 }
-section img {
+section figure {
     margin-bottom: 15px;
+}
+
+figure img {
+    padding: 5px;
+}
+figcaption {
+    margin: 10px;
 }
 
 section p {
