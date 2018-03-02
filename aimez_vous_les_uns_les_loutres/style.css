@@ -1,7 +1,7 @@
 body {
     position: relative;
     height: 100vh;
-    background: rgba(255, 165, 0, 0.2);
+    background: whitesmoke;
 }
 
 footer {
@@ -21,10 +21,14 @@ header {
     text-align: center;
     margin: 3em;
 }
+header h1 {
+    color: orange;
+    font-weight: 600;
+}
 
 section p, section figure {
     border:3px solid orange;
-    background: rgba(98, 182, 185, 0.2);
+    background: rgba(255, 165, 0, 0.2);
     color: rgb(28, 63, 129);
 }
 section figure {
