@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Find the Precious!!! Join Sauron's army! <3 <3 <3 </title>
+        <title>Find the Precious!!! Join Sauron's army! &lt;3 &lt;3 &lt;3 </title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="the Ring: Find the Precious, destroy the dangerous fellowhip, protect your master Sauron. If you're a orc, a goblin or a balrog and you know it, clap your hands!">
         <meta name="keyword" content="ring, precious, sauron, fellowship, hunters, army">
@@ -40,7 +40,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contactUs">Contact Us</a>
                     </li>
-                  </li>
                 </ul>
                </div>
         </nav>
@@ -83,7 +82,7 @@
             
             
             <div id="mostWanted">
-                <img src="http://via.placeholder.com/250x210" alt="the wizard" class="img-thumbnail">
+                <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/250x210" alt="the wizard">
                 <h3>
                     The Wizard
                 </h3>
@@ -95,7 +94,7 @@
                 </p>
             </div>
             <div id="captured">
-                <img src="http://via.placeholder.com/250x210" alt="a hobbit" class="img-thumbnail">
+                <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/250x210" alt="a hobbit">
                 <h3>
                     Hobbit #3
                 </h3>
@@ -107,7 +106,7 @@
                 </p>
             </div>
             <div id="mostDangerous">
-                <img src="http://via.placeholder.com/250x210" alt="a yummy dwarf" class="img-thumbnail">
+                <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/250x210" alt="a yummy dwarf">
                 <h3>
                     Yummy Dwarf
                 </h3>
@@ -128,7 +127,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id neque a metus dapibus accumsan cursus ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus mattis, eros sit amet volutpat hendrerit, nunc justo varius dolor, ut fringilla orci tortor pulvinar elit. Fusce accumsan lacus in commodo feugiat. 
             </p>
             <a href="#contactUS">Contact us</a>
-            <img src="http://via.placeholder.com/140x140" alt="group picture of ugly orcs and goblins and balrog">
+            <img class="img-fluid" src="http://via.placeholder.com/140x140" alt="group picture of ugly orcs and goblins and balrog">
         </section>
         <hr>
         <section id="bestHunters">
@@ -136,7 +135,7 @@
                 Best hunters
             </h2>
             <div class="media">
-                <img class="d-flex align-self-center mr-3" src="http://via.placeholder.com/70x70" alt="a dimwitted but ferocious orc">
+                <img class="d-flex align-self-center mr-3 img-fluid" src="http://via.placeholder.com/70x70" alt="a dimwitted but ferocious orc">
                 <div class="media-body"><h3>
                     ElvesKiller22
                 </h3>
@@ -146,7 +145,7 @@
                 </div>
             </div>
             <div class="media">
-                <img class="d-flex align-self-center mr-3" src="http://via.placeholder.com/70x70" alt="a disgusting goblin with a nasty sadistic grin">
+                <img class="d-flex align-self-center mr-3 img-fluid" src="http://via.placeholder.com/70x70" alt="a disgusting goblin with a nasty sadistic grin">
                 <div class="media-body"><h3>
                     Goblin45
                 </h3>
@@ -195,11 +194,13 @@
                 <h3 class="card-header">
                     Why is the ring awesome?
                 </h3>
-                <p class="card-text">
-                    My precioooooooooooussssss! Hrk Hrk, we want our preeciooooooouuusss!!<br/>
-                    <span>Gollum</span>
-                </p>
-                <img src="http://via.placeholder.com/110x110" alt="please tell me you read these alt descriptions">
+                <div class="media">
+                    <div class="media-body">
+                            My precioooooooooooussssss! Hrk Hrk, we want our preeciooooooouuusss!!<br/>
+                            <span>Gollum</span>
+                    </div>                    
+                    <img class="d-flex ml-3 img-fluid" src="http://via.placeholder.com/110x110" alt="please tell me you read these alt descriptions">
+                </div>
             </div>            
         </section>
         <hr>
@@ -214,12 +215,12 @@
                     </p>
                 </div>
                 <div class="col-md-5">
-                    <img src="http://via.placeholder.com/140x140" alt="a group picture of monsters covered in mud and blood">
+                    <img class="img-fluid" src="http://via.placeholder.com/140x140" alt="a group picture of monsters covered in mud and blood">
                 </div>
             </div>
         <div class="row">
             <div class="col-md-6">
-                <img src="http://via.placeholder.com/140x140" alt="a group picture of monsters covered in mud and blood">
+                <img class="img-fluid" src="http://via.placeholder.com/140x140" alt="a group picture of monsters covered in mud and blood">
             </div>
             <div class="col-md-6">
                 <p>More info on
@@ -236,14 +237,6 @@
                         Contact us 
                     </h2>
                     <form>
-        <!-- 1. j'aurais bien mis des <br/> pour passer à la ligne après chaque élément du form, 
-            mais une des page de la quête précisait que la balise n'est à utiliser que dans un paragraphe...
-        
-            2. j'ai préféré utilisé des labels au cas où, 
-            sachant a. qu'on peut les cacher par la suite, 
-            et b. qu'il est important pour l'accessibilité (handicaps) qu'ils soient là
-            cf https://www.w3.org/WAI/tutorials/forms/labels/.
-        -->
                         <fieldset>
                             <div class="form-group">
                                 <label for="email">Your email address</label>         
@@ -264,54 +257,61 @@
                                 </div>
                             <div class="form-group">
                                 <label for="yourMessage">Your message</label>  
-                                <textarea id="yourMessage" name="message" placeholder="Your message" rows="10" cols="35"></textarea>
+                                <textarea id="yourMessage" name="message" placeholder="Your message" rows="10" cols="30" class="form-group"></textarea>
                             </div>
                             <input type="submit" value="Submit">
                         </fieldset>   
                     </form>           
                 </div>
-                <div class="col-md-6">
-                    <img src="http://via.placeholder.com/600x600" alt="a map of Mordor"> 
+                <div class="col-md-5">
+                    <img class="img-fluid" src="http://via.placeholder.com/600x600" alt="a map of Mordor"> 
                 </div>
             </div>
-           
-           
         </section>
+        <!-- footer -->
         <footer>
-            <ul>
-                <li>
-                   <a href="">About us</a>
-                </li>
-                <li>
-                    <a href="">Fellows</a>
-                </li>
-                <li>
-                    <a href="">Join our army</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="">FAQ</a>
-                </li>
-                <li>
-                    <a href="">Reward conditions</a>
-                </li>
-                <li>
-                    <a href="">Legal mentions</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="">Sauron4Ever.com</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/naughty_sauron" target="_blank" rel="noopener">Follo him also on twitter</a>
-                </li>
-            </ul>
+            <div class="row">
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <a href="">About us</a>
+                        </li>
+                        <li>
+                            <a href="">Fellows</a>
+                        </li>
+                        <li>
+                            <a href="">Join our army</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                        <ul>
+                            <li>
+                                <a href="">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="">Reward conditions</a>
+                            </li>
+                            <li>
+                                <a href="">Legal mentions</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                        <ul>
+                            <li>
+                                <a href="">Sauron4Ever.com</a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/naughty_sauron" target="_blank" rel="noopener">Follo him also on twitter</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     </body>
 </html>
