@@ -50,13 +50,16 @@ img {
 /* Caroussel */
 
 .carousel-item {
-    height: 350px;
+    height: 400px;
 }
 
 .carousel-item img {
-   
     object-fit: cover;
-    
+}
+
+.carousel-caption {
+    position: absolute;
+
 }
 
 /*pills*/
