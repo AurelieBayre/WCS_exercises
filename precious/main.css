@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Aniron";
-    src: url("font/anicb___.ttf");
+    src: url("fonts/anicb___.ttf");
   }
 
 @font-face {
     font-family: "Symbols";
-    src: url("font/tngani.ttf");
+    src: url("fonts/tngani.ttf");
 }
 
 @font-face {
     font-family: "PartyBusiness";
-    src: url("font/partybusiness.ttf");
+    src: url("fonts/partybusiness.ttf");
 }
 
 body {
