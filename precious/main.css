@@ -1,4 +1,8 @@
 @font-face {
-    font-family: "Ring Font";
-    src: url(font/anicb___.ttf);
+    font-family: 'Aniron';
+    src: url('font/anicb___.ttf');
+  }
+
+section {
+    font-family: Aniron;
 }
