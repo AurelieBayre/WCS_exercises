@@ -1,8 +1,21 @@
 @font-face {
-    font-family: 'Aniron';
-    src: url('font/anicb___.ttf');
+    font-family: "Aniron";
+    src: url("font/anicb___.ttf");
   }
 
-section {
+@font-face {
+    font-family: "Symbols";
+    src: url("font/tngani.ttf");
+}
+
+@font-face {
+    font-family: "PartyBusiness";
+    src: url("font/partybusiness.ttf");
+}
+h1, h2, h3 {
     font-family: Aniron;
+}
+
+p, li, a, label {
+    font-family: PartyBusiness;
 }
