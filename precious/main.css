@@ -29,3 +29,7 @@ p, li, a, label {
 .navbar a {
     color: whitesmoke;
 }
+
+.navbar a:hover {
+    font-weight: bold;
+}
