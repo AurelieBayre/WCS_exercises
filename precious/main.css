@@ -43,3 +43,13 @@ p, li, a, label {
 .navbar-toggler-icon {
     color: whitesmoke;
 }
+
+/* Caroussel */
+
+/*pills*/
+.nav-pills a {
+    color: orange;
+}
+.nav-pills .active {
+    text-decoration: underline;
+}
