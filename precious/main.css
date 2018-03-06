@@ -12,6 +12,11 @@
     font-family: "PartyBusiness";
     src: url("font/partybusiness.ttf");
 }
+
+body {
+    font-size: 16px;
+}
+
 h1, h2, h3 {
     font-family: Aniron;
 }
@@ -28,6 +33,7 @@ p, li, a, label {
 
 .navbar a {
     color: whitesmoke;
+    font-size: 1.5em
 }
 
 .navbar a:hover {
