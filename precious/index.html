@@ -230,35 +230,52 @@
         </section>
         <hr>
         <section id="contactUs">
-            <h2>
-                Contact us 
-            </h2>
-            <form>
-<!-- 1. j'aurais bien mis des <br/> pour passer à la ligne après chaque élément du form, 
-    mais une des page de la quête précisait que la balise n'est à utiliser que dans un paragraphe...
-
-    2. j'ai préféré utilisé des labels au cas où, 
-    sachant a. qu'on peut les cacher par la suite, 
-    et b. qu'il est important pour l'accessibilité (handicaps) qu'ils soient là
-    cf https://www.w3.org/WAI/tutorials/forms/labels/.
--->
-                <fieldset>
-                    <label for="email">Your email address</label>         
-                    <input id="email" type="email" name="email" placeholder="@">
-                    <label for="userHomepage">Your website</label>  
-                    <input id="userHomepage" type="text" name="homepage" placeholder="&#127968;">
-                    <label>Subject</label> 
-                    <select>
-                        <option>I have seen one of them</option>
-                        <option>I love Sauron &lt;3 &lt;3 &lt;3</option>
-                        <option>Those hobbits are really filthy</option> 
-                        <option>I want to join the army</option>   
-                    </select> 
-                    <label for="yourMessage">Your message</label>  
-                    <textarea id="yourMessage" name="message" placeholder="Your message" rows="10" cols="35"></textarea>
-                    <input type="submit" value="Submit">
-                </fieldset>   
-            </form>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>
+                        Contact us 
+                    </h2>
+                    <form>
+        <!-- 1. j'aurais bien mis des <br/> pour passer à la ligne après chaque élément du form, 
+            mais une des page de la quête précisait que la balise n'est à utiliser que dans un paragraphe...
+        
+            2. j'ai préféré utilisé des labels au cas où, 
+            sachant a. qu'on peut les cacher par la suite, 
+            et b. qu'il est important pour l'accessibilité (handicaps) qu'ils soient là
+            cf https://www.w3.org/WAI/tutorials/forms/labels/.
+        -->
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="email">Your email address</label>         
+                                <input id="email" type="email" name="email" placeholder="@">
+                            </div>
+                            <div class="form-group">
+                                <label for="userHomepage">Your website</label>  
+                                <input id="userHomepage" type="text" name="homepage" placeholder="&#127968;">
+                            </div>
+                            <div class="form-group">
+                                <label>Subject</label> 
+                                    <select>
+                                        <option>I have seen one of them</option>
+                                        <option>I love Sauron &lt;3 &lt;3 &lt;3</option>
+                                        <option>Those hobbits are really filthy</option> 
+                                        <option>I want to join the army</option>   
+                                    </select> 
+                                </div>
+                            <div class="form-group">
+                                <label for="yourMessage">Your message</label>  
+                                <textarea id="yourMessage" name="message" placeholder="Your message" rows="10" cols="35"></textarea>
+                            </div>
+                            <input type="submit" value="Submit">
+                        </fieldset>   
+                    </form>           
+                </div>
+                <div class="col-md-6">
+                    <img src="http://via.placeholder.com/600x600" alt="a map of Mordor"> 
+                </div>
+            </div>
+           
+           
         </section>
         <footer>
             <ul>
