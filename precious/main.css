@@ -39,3 +39,7 @@ p, li, a, label {
 .navbar a:hover {
     font-weight: bold;
 }
+
+.navbar-toggler-icon {
+    color: whitesmoke;
+}
