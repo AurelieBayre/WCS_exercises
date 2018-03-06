@@ -19,3 +19,13 @@ h1, h2, h3 {
 p, li, a, label {
     font-family: PartyBusiness;
 }
+
+/* Nabar*/
+
+.navbar {
+    background-color: orange;
+}
+
+.navbar a {
+    color: whitesmoke;
+}
