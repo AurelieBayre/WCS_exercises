@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Aniron";
-    src: url("font/anicb___.ttf");
+    src: url("fonts/anicb___.ttf");
   }
 
 @font-face {
     font-family: "Symbols";
-    src: url("font/tngani.ttf");
+    src: url("fonts/tngani.ttf");
 }
 
 @font-face {
     font-family: "PartyBusiness";
-    src: url("font/partybusiness.ttf");
+    src: url("fonts/partybusiness.ttf");
 }
 
 body {
@@ -25,6 +25,9 @@ p, li, a, label {
     font-family: PartyBusiness;
 }
 
+img {
+    max-width: 100%;
+}
 /* Nabar*/
 
 .navbar {
@@ -33,7 +36,7 @@ p, li, a, label {
 
 .navbar a {
     color: whitesmoke;
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 
 .navbar a:hover {
@@ -42,4 +45,28 @@ p, li, a, label {
 
 .navbar-toggler-icon {
     color: whitesmoke;
+}
+
+/* Caroussel */
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+
+}
+
+/*pills*/
+.nav-pills a {
+    color: orange;
+    font-size: 1.5em;
+}
+.nav-pills .active {
+    text-decoration: underline;
 }
