@@ -25,6 +25,9 @@ p, li, a, label {
     font-family: PartyBusiness;
 }
 
+img {
+    max-width: 100%;
+}
 /* Nabar*/
 
 .navbar {
@@ -45,6 +48,16 @@ p, li, a, label {
 }
 
 /* Caroussel */
+
+.carousel-item {
+    height: 350px;
+}
+
+.carousel-item img {
+   
+    object-fit: cover;
+    
+}
 
 /*pills*/
 .nav-pills a {
