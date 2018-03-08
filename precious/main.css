@@ -1,21 +1,200 @@
+:root {
+    --orange: orange;
+}
+
 @font-face {
     font-family: "Aniron";
-    src: url("font/anicb___.ttf");
+    src: url("fonts/anicb___.ttf");
   }
 
 @font-face {
     font-family: "Symbols";
-    src: url("font/tngani.ttf");
+    src: url("fonts/tngani.ttf");
 }
 
 @font-face {
     font-family: "PartyBusiness";
-    src: url("font/partybusiness.ttf");
+    src: url("fonts/partybusiness.ttf");
 }
-h1, h2, h3 {
+
+body {
+    font-size: 16px;
+}
+
+h1, 
+h2, 
+h3, 
+p, 
+table {
     font-family: Aniron;
+}
+
+h2 {
+    font-size: 1.2em;
 }
 
 p, li, a, label {
     font-family: PartyBusiness;
 }
+
+a {
+    color: whitesmoke;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    border-color: 2px solid var(--orange);
+    position: absolute;
+    z-index: 666;
+}
+
+.black-bg {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.gray-bg {
+    background-color: #f7f1e0;
+    color: black;
+}
+
+.gray-bg, .black-bg {
+    padding: 2em 1em 2em 1em;
+}
+
+.nasty-btn {
+    color: var(--orange);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 0;
+    padding: 0.8em;
+/*Creditting https://codepen.io/adamjohnson/pen/aokGt */
+    transform: skew(-21deg);
+}
+
+.badge:hover {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.badge:visited {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.badge:active {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.dark-btn {
+    background-color: black;
+}
+
+
+/* Nabar*/
+
+.navbar {
+    background-color: var(--orange);
+}
+
+.navbar a {
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: whitesmoke;
+}
+
+/* Caroussel */
+
+.carousel-item {
+    height: 400px;
+    background-image: url("images/dark_vador.jpg");
+    background-position: center;
+}
+
+.carousel-caption {
+    position: absolute;
+
+}
+
+/*pills*/
+.nav-pills a {
+    color: var(--orange);
+    font-size: 1.5em;
+}
+.nav-pills .active {
+    text-decoration: underline;
+}
+/* The ring*/
+.card {
+    border: 0;
+    border-radius: 0;
+}
+.card-header {
+    background-color: var(--orange);
+    font-size: 0.6em;
+}
+
+.card-header h3 {
+    font-size: 0.6em;
+}
+
+thead,
+.card-text {
+    color: black;
+}
+tbody {
+    color: rgb(82, 59, 53);
+    font-size: 0.6em;
+}
+
+
+/*Join Us*/
+
+
+/* Contact us*/
+
+option, 
+input,
+textarea,
+select {
+    font-family: Aniron;
+}
+
+.contact .btn {
+    margin: 1.5em;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--orange);
+}
+
+footer ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+footer ul li {
+    list-style-type: none;
+}
+ label {
+     visibility: hidden;
+     font-size: 0.1em;
+     line-height: 0.1em;
+ }
+ .form-group {
+     margin-bottom: 0;
+ }
+/*
+TODO: mediaquerie to reposition jumbotron image on small devices (< 765)
+*/

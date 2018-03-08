@@ -1,7 +1,7 @@
-let answer = "";
+
 
 function prompting(){
-    answer = window.prompt("Hey mon ami ! Tu aimes ça les patates ?");
+    let answer = window.prompt("Hey mon ami ! Tu aimes ça les patates ?");
     return answer;
 }
 
@@ -27,9 +27,10 @@ function printPotatoes() {
 function no(){
     alert("Mais Dieu du Ciel, QUI n'aime pas les patates???")
 }
+
 function neither() {
-    alert("je vous sens comme tiraillé..")
+    alert("je vous sens comme tiraillé-e..")
 }
 
-prompting()
-check(answer)
+
+check(prompting())
