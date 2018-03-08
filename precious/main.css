@@ -54,7 +54,7 @@ img {
 }
 
 .carousel-item img {
-    object-position: 50% 50%;
+    object-position: 100% 50%;
     object-fit: none;
     
 }
