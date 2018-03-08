@@ -86,6 +86,10 @@ input {
     font-family: Aniron;
 }
 
+.contact {
+    padding: 2em 1em 2em 1em;
+}
+
 /* Footer */
 
 footer {
