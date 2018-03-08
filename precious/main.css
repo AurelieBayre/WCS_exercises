@@ -87,6 +87,14 @@ footer ul {
 footer ul li {
     list-style-type: none;
 }
+ label {
+     visibility: hidden;
+     font-size: 0.1em;
+     line-height: 0.1em;
+ }
+ .form-group {
+     margin-bottom: 0;
+ }
 /*
 TODO: mediaquerie to reposition jumbotron image on small devices (< 765)
 */

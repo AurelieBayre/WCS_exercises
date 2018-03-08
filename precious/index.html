@@ -237,7 +237,7 @@
 
 <!-- Contact Us-->            
             <section id="contactUs">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <h2>
                             Contact us 
@@ -253,19 +253,19 @@
                                     <input class="form-control" id="userHomepage" type="text" name="homepage" placeholder="&#127968;">
                                 </div>
                                 <div class="form-group">
-                                    <label class="form-control">Subject</label> 
-                                        <select>
-                                            <option>I have seen one of them</option>
-                                            <option>I love Sauron &lt;3 &lt;3 &lt;3</option>
-                                            <option>Those hobbits are really filthy</option> 
-                                            <option>I want to join the army</option>   
-                                        </select> 
-                                    </div>
+                                    <label for="emailSubject">Subject</label> 
+                                    <select class="custom-select" id="userHomepage">
+                                        <option>I have seen one of them</option>
+                                        <option>I love Sauron &lt;3 &lt;3 &lt;3</option>
+                                        <option>Those hobbits are really filthy</option> 
+                                        <option>I want to join the army</option>   
+                                    </select> 
+                                </div>
                                 <div class="form-group">
                                     <label for="yourMessage">Your message</label>  
                                     <textarea class="form-control" id="yourMessage" name="message" placeholder="Your message" rows="10" cols="30"></textarea>
                                 </div>
-                                <input type="submit" value="Submit">
+                                <input class="btn" type="submit" value="Submit">
                             </fieldset>   
                         </form>           
                     </div>
