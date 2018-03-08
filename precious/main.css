@@ -51,10 +51,12 @@ img {
 
 .carousel-item {
     height: 400px;
+    background-image: url("images/dark_vador.jpg");
+    background-position: center;
 }
 
 .carousel-item img {
-    object-position: 100% 50%;
+    object-position: 25% 50%;
     object-fit: none;
     
 }
@@ -72,3 +74,6 @@ img {
 .nav-pills .active {
     text-decoration: underline;
 }
+/*
+TODO: mediaquerie to reposition jumbotron image on small devices (< 765)
+*/
