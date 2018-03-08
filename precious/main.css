@@ -90,6 +90,10 @@ input {
     padding: 2em 1em 2em 1em;
 }
 
+.contact .btn {
+    margin: 1.5em;
+}
+
 /* Footer */
 
 footer {
