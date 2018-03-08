@@ -25,6 +25,10 @@ p, li, a, label {
     font-family: PartyBusiness;
 }
 
+a {
+    color: whitesmoke;
+}
+
 img {
     max-width: 100%;
 }
@@ -55,12 +59,6 @@ img {
     background-position: center;
 }
 
-.carousel-item img {
-    object-position: 25% 50%;
-    object-fit: none;
-    
-}
-
 .carousel-caption {
     position: absolute;
 
@@ -73,6 +71,17 @@ img {
 }
 .nav-pills .active {
     text-decoration: underline;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: orange;
+}
+
+footer ul li {
+    list-style-type: none;
 }
 /*
 TODO: mediaquerie to reposition jumbotron image on small devices (< 765)
