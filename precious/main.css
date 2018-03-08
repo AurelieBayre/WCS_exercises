@@ -54,7 +54,9 @@ img {
 }
 
 .carousel-item img {
-    object-fit: cover;
+    object-position: 50% 50%;
+    object-fit: none;
+    
 }
 
 .carousel-caption {
