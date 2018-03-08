@@ -80,6 +80,10 @@ footer {
     background-color: orange;
 }
 
+footer ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 footer ul li {
     list-style-type: none;
 }
