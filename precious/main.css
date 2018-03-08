@@ -1,3 +1,7 @@
+:root {
+    --orange: orange;
+}
+
 @font-face {
     font-family: "Aniron";
     src: url("fonts/anicb___.ttf");
@@ -21,6 +25,9 @@ h1, h2, h3 {
     font-family: Aniron;
 }
 
+h2 {
+    font-size: 1.2em;
+}
 p, li, a, label {
     font-family: PartyBusiness;
 }
@@ -33,15 +40,26 @@ img {
     max-width: 100%;
 }
 
+hr {
+    border-color: 2px solid var(--orange);
+    position: absolute;
+    z-index: 666;
+}
+
 .black-bg {
     background-color: black;
     color: whitesmoke;
 }
 
+.gray-bg {
+    background-color: #f7f1e0;
+    color: black;
+}
+
 /* Nabar*/
 
 .navbar {
-    background-color: orange;
+    background-color: var(--orange);
 }
 
 .navbar a {
@@ -72,7 +90,7 @@ img {
 
 /*pills*/
 .nav-pills a {
-    color: orange;
+    color: var(--orange);
     font-size: 1.5em;
 }
 .nav-pills .active {
@@ -82,7 +100,9 @@ img {
 /* Contact us*/
 
 option, 
-input {
+input,
+textarea,
+select {
     font-family: Aniron;
 }
 
@@ -97,7 +117,7 @@ input {
 /* Footer */
 
 footer {
-    background-color: orange;
+    background-color: var(--orange);
 }
 
 footer ul {
