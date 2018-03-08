@@ -21,13 +21,18 @@ body {
     font-size: 16px;
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3, 
+p, 
+table {
     font-family: Aniron;
 }
 
 h2 {
     font-size: 1.2em;
 }
+
 p, li, a, label {
     font-family: PartyBusiness;
 }
@@ -129,6 +134,32 @@ hr {
 .nav-pills .active {
     text-decoration: underline;
 }
+/* The ring*/
+.card {
+    border: 0;
+    border-radius: 0;
+}
+.card-header {
+    background-color: var(--orange);
+    font-size: 0.6em;
+}
+
+.card-header h3 {
+    font-size: 0.6em;
+}
+
+thead,
+.card-text {
+    color: black;
+}
+tbody {
+    color: rgb(82, 59, 53);
+    font-size: 0.6em;
+}
+
+
+/*Join Us*/
+
 
 /* Contact us*/
 
