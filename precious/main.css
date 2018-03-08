@@ -32,6 +32,12 @@ a {
 img {
     max-width: 100%;
 }
+
+.black-bg {
+    background-color: black;
+    color: whitesmoke;
+}
+
 /* Nabar*/
 
 .navbar {
