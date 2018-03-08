@@ -56,6 +56,35 @@ hr {
     color: black;
 }
 
+.nasty-btn {
+    color: var(--orange);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 0;
+    padding: 0.8em;
+/*Creditting https://codepen.io/adamjohnson/pen/aokGt */
+    transform: skew(-21deg);
+}
+
+.badge:hover {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.badge:visited {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.badge:active {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.dark-btn {
+    background-color: black;
+}
+
+
 /* Nabar*/
 
 .navbar {
