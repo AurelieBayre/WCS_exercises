@@ -79,6 +79,12 @@ img {
     text-decoration: underline;
 }
 
+/* Contact us*/
+
+option, 
+input {
+    font-family: Aniron;
+}
 
 /* Footer */
 
