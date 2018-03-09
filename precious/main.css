@@ -62,7 +62,7 @@ hr {
 }
 
 .gray-bg, .black-bg {
-    padding: 2em 1em 2em 1em;
+    padding: 2em 2em 1.5em 2em;
 }
 
 .nasty-btn {
@@ -157,11 +157,31 @@ tbody {
     font-size: 0.6em;
 }
 
+.media-body {
+    color: black;
+    font-family: Aniron;
+    font-size: 0.8em;
+}
+
+.media-body .signature {
+    color: rgb(82, 59, 53);
+    display: block;
+    font-size: 0.6em;
+    text-align: right;
+}
+
+.ring .card {
+    margin-top: 1em;
+    border-bottom: 3px solid var(--orange);
+    border-radius: 5px 5px 0 0;
+}
+
 
 /*Join Us*/
 
 
 /* Contact us*/
+
 
 option, 
 input,
