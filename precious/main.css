@@ -134,6 +134,33 @@ hr {
 .nav-pills .active {
     text-decoration: underline;
 }
+
+/* Wanted*/
+
+
+
+/*Reward*/
+
+
+/* Best Hunters*/
+.hunters h3 {
+    color: var(--orange);
+    font-size: 1.5em;
+}
+
+.hunters p {
+    font-size: 0.8em;
+}
+
+.profileLink {
+    color: black;
+}
+
+.profileLink:hover {
+    color: black;
+}
+
+
 /* The ring*/
 .card {
     border: 0;
