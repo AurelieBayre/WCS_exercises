@@ -148,12 +148,12 @@ hr {
 }
 
 
-.figure img {
+figure img {
     opacity: 0.4;
 }
 
 
-.figure img:hover {
+figure:hover img {
     opacity: 1;
 }
 
@@ -164,7 +164,9 @@ figcaption {
     left: 0.6em;
     top: 0.6em;
 }
-
+figure:hover figcaption {
+    visibility: hidden;
+}
 .name {
     font-size: 1em;
 }
