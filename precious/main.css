@@ -129,6 +129,10 @@ hr {
 
 }
 
+
+
+/* Wanted*/
+
 /*pills*/
 .nav-pills a {
     color: var(--orange);
@@ -138,8 +142,9 @@ hr {
     text-decoration: underline;
 }
 
-/* Wanted*/
-
+.subtitle {
+    font-size: 0.8em;
+}
 
 
 /*Reward*/

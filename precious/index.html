@@ -69,62 +69,79 @@
 <!-- Section Wanted -->
             <section id="wanted" class="gray-bg">
                 <h2>
-                    Fellows wanted dead <span>(or alive if you want to eat them later)</span>
+                    Fellows wanted dead <span class="subtitle">(or alive if you want to eat them later)</span>
                 </h2>
                 <!-- Pills -->
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                    <a class="active" href="#mostWanted">Most Wanted</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="" href="#mostDangerous">Most dangerous</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="" href="captured">Already Captured</a>
-                    </li>
-                </ul>   
-                
-            <div class="d-md-flex flex-row justify-content-around">   
-                <figure id="mostWanted">
-                    <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/200x250" alt="the wizard">
-                    <figcaption>
-                        <h3>
-                            The Wizard
-                        </h3>
-                        <p>
-                            Reward 1000 gold coins
-                        </p>
-                    </figcaption>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                    </p>
-                </figure>
-                <div id="captured">
-                    <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/200x250" alt="a hobbit">
-                    <h3>
-                        Hobbit #3
-                    </h3>
-                    <p>
-                        Dead
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                    </p>
+                <div class="card text-center">
+                    <div class="card-header">
+                      <ul class="nav nav-pills card-header-pills d-flex flex-row justify-content-around">
+                        <li class="nav-item mx-auto">
+                            <a class="active" href="#mostWanted">Most Wanted</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                         <a class="" href="#mostDangerous">Most dangerous</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="" href="#captured">Already Captured</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body">           
+                       <div class="d-md-flex flex-row">
+                            <div id="mostWanted" class="card">
+                                <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/200x250" alt="the wizard">
+                                
+                                    <h3>
+                                        The Wizard
+                                    </h3>
+                                    <p>
+                                        Reward 1000 gold coins
+                                    </p>
+                               
+                                <div class="card-footer">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div id="captured" class="card">
+                                <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/200x250" alt="a hobbit">
+                                <h3>
+                                    Hobbit #3
+                                </h3>
+                                <p>
+                                    Dead
+                                </p>
+                                <div class="card-footer">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                    </p>
+                                </div>  
+                            </div>
+
+
+                            <div id="mostDangerous" class="card">
+                                <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/200x250" alt="a yummy dwarf">
+                                <h3>
+                                    Yummy Dwarf
+                                </h3>
+                                <p>
+                                    Reward 250 gold coins
+                                </p>
+                                <div class="card-footer">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="mostDangerous">
-                    <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/200x250" alt="a yummy dwarf">
-                    <h3>
-                        Yummy Dwarf
-                    </h3>
-                    <p>
-                        Reward 250 gold coins
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                    </p>
-                </div>
+
             
-        </div> 
+       
             </section>
             <hr>
             <section id="reward" class="reward black-bg">
@@ -261,8 +278,8 @@
            
 
 <!-- Contact Us-->            
-            <section id="contactUs">
-                <div class="row justify-content-between black-bg">
+            <section id="contactUs" class="black-bg">
+                <div class="row justify-content-between">
                     <hr>
                     <div class="col-md-6 align-self-center">
                         <h2>
