@@ -25,6 +25,7 @@ h1,
 h2, 
 h3, 
 p, 
+figcaption,
 table {
     font-family: Aniron;
 }
@@ -146,6 +147,30 @@ hr {
     font-size: 0.8em;
 }
 
+
+.figure img {
+    opacity: 0.4;
+}
+
+
+.figure img:hover {
+    opacity: 1;
+}
+
+figcaption {
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    left: 0.6em;
+    top: 0.6em;
+}
+
+.name {
+    font-size: 1em;
+}
+.amount {
+    color: orange;
+}
 
 /*Reward*/
 
