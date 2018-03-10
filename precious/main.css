@@ -25,6 +25,7 @@ h1,
 h2, 
 h3, 
 p, 
+figcaption,
 table {
     font-family: Aniron;
 }
@@ -129,6 +130,10 @@ hr {
 
 }
 
+
+
+/* Wanted*/
+
 /*pills*/
 .nav-pills a {
     color: var(--orange);
@@ -138,9 +143,36 @@ hr {
     text-decoration: underline;
 }
 
-/* Wanted*/
+.subtitle {
+    font-size: 0.8em;
+}
 
 
+figure img {
+    opacity: 0.4;
+}
+
+
+figure:hover img {
+    opacity: 1;
+}
+
+figcaption {
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    left: 0.6em;
+    top: 0.6em;
+}
+figure:hover figcaption {
+    visibility: hidden;
+}
+.name {
+    font-size: 1em;
+}
+.amount {
+    color: orange;
+}
 
 /*Reward*/
 
