@@ -93,6 +93,9 @@ hr {
     background-color: black;
 }
 
+.light-btn {
+    background-color: whitesmoke;
+}
 
 /* Nabar*/
 
@@ -141,6 +144,10 @@ hr {
 
 /*Reward*/
 
+.reward .card-header {
+    background-color: black;
+    font-size: 0.8em;
+}
 
 /* Best Hunters*/
 .hunters h3 {
@@ -160,15 +167,19 @@ hr {
     color: black;
 }
 
+.reward .nasty-btn {
+    font-size: 1.3em;
+}
 
 /* The ring*/
 .card {
     border: 0;
     border-radius: 0;
 }
-.card-header {
+
+.ring .card-header {
     background-color: var(--orange);
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 
 .card-header h3 {
@@ -184,7 +195,7 @@ tbody {
     font-size: 0.6em;
 }
 
-.media-body {
+.ring .media-body {
     color: black;
     font-family: Aniron;
     font-size: 0.8em;
