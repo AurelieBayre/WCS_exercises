@@ -1,5 +1,5 @@
 :root {
-    --orange: orange;
+    --orange: rgb(207, 83, 11);
 }
 
 @font-face {
@@ -119,26 +119,12 @@ hr {
 
 /* Caroussel */
 
-/*.first {
-    height: 400px;
-    background-image: url("images/dark_vador.jpg");
-    background-position: center;
-}
-.second {
-    height: 400px;
-    background-image: url("images/witch.jpg");
-    background-position: center;
+.carousel-title {
+    font-size: 2em;
 }
 
-.third {
-    height: 400px;
-    background-image: url("images/ursula.jpg");
-    background-position: center;
-}
-*/
-.carousel-caption {
-    position: absolute;
-
+.carousel-subtitle {    
+    font-size: 1.5em;
 }
 
 
