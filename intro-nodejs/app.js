@@ -20,7 +20,7 @@ process.stdin.on('data', (input) => {
     else if (input > 99){
         return console.log("sorry, this number is too big.")
     }
-    return sentence(input)
+    console.log(sentence(input))
   process.exit()
 })
 
