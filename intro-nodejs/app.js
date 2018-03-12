@@ -3,7 +3,7 @@ const actualYear = actualDate.getFullYear()
 
 const sentence = (num) => { 
     const dateOfBirth = actualYear - num 
-    return console.log(`Mmmmhh... let me see my cristal ball...
+    console.log(`Mmmmhh... let me see my cristal ball...
     \b You were born around the year ${dateOfBirth}`)
 }
 
@@ -15,12 +15,14 @@ process.stdin.on('data', (input) => {
 //input is a string!
 //return console.log(parseInt(input), typeof parseInt(input)) //NaN, "number" 
     if (isNaN(input)) {
-        return console.log("sorry, this isn't a number. ")
+        console.log("sorry, this isn't a number. ")
+        process.exit()
     }
     else if (input > 99){
-        return console.log("sorry, this number is too big.")
+        console.log("sorry, this number is too big.")
+        process.exit()
     }
-    console.log(sentence(input))
-  process.exit()
+    sentence(input)
+    process.exit()
 })
 
