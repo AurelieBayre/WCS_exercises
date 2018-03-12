@@ -25,6 +25,7 @@ h1,
 h2, 
 h3, 
 p, 
+figcaption,
 table {
     font-family: Aniron;
 }
@@ -62,7 +63,7 @@ hr {
 }
 
 .gray-bg, .black-bg {
-    padding: 2em 1em 2em 1em;
+    padding: 2em 2em 1.5em 2em;
 }
 
 .nasty-btn {
@@ -93,6 +94,9 @@ hr {
     background-color: black;
 }
 
+.light-btn {
+    background-color: whitesmoke;
+}
 
 /* Nabar*/
 
@@ -126,6 +130,10 @@ hr {
 
 }
 
+
+
+/* Wanted*/
+
 /*pills*/
 .nav-pills a {
     color: var(--orange);
@@ -134,14 +142,78 @@ hr {
 .nav-pills .active {
     text-decoration: underline;
 }
+
+.subtitle {
+    font-size: 0.8em;
+}
+
+
+figure img {
+    opacity: 0.4;
+}
+
+
+figure:hover img {
+    opacity: 1;
+}
+
+figcaption {
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    left: 0.6em;
+    top: 0.6em;
+}
+figure:hover figcaption {
+    visibility: hidden;
+}
+.name {
+    font-size: 1em;
+}
+.amount {
+    color: orange;
+}
+
+
+
+/*Reward*/
+
+.reward .card-header {
+    background-color: black;
+    font-size: 0.8em;
+}
+
+/* Best Hunters*/
+.hunters h3 {
+    color: var(--orange);
+    font-size: 1.5em;
+}
+
+.hunters p {
+    font-size: 0.8em;
+}
+
+.profileLink {
+    color: black;
+}
+
+.profileLink:hover {
+    color: black;
+}
+
+.reward .nasty-btn {
+    font-size: 1.3em;
+}
+
 /* The ring*/
 .card {
     border: 0;
     border-radius: 0;
 }
-.card-header {
+
+.ring .card-header {
     background-color: var(--orange);
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 
 .card-header h3 {
@@ -157,11 +229,31 @@ tbody {
     font-size: 0.6em;
 }
 
+.ring .media-body {
+    color: black;
+    font-family: Aniron;
+    font-size: 0.8em;
+}
+
+.media-body .signature {
+    color: rgb(82, 59, 53);
+    display: block;
+    font-size: 0.6em;
+    text-align: right;
+}
+
+.ring .card {
+    margin-top: 1em;
+    border-bottom: 3px solid var(--orange);
+    border-radius: 5px 5px 0 0;
+}
+
 
 /*Join Us*/
 
 
 /* Contact us*/
+
 
 option, 
 input,

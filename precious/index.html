@@ -67,99 +67,145 @@
                 
             </header>
 <!-- Section Wanted -->
-            <section id="wanted">
+            <section id="wanted" class="wanted gray-bg">
                 <h2>
-                    Fellows wanted dead <span>(or alive if you want to eat them later)</span>
+                    Fellows wanted dead <span class="subtitle">(or alive if you want to eat them later)</span>
                 </h2>
                 <!-- Pills -->
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                    <a class="active" href="#mostWanted">Most Wanted</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="" href="#mostDangerous">Most dangerous</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="" href="captured">Already Captured</a>
-                    </li>
-                </ul>                
-                <div id="mostWanted">
-                    <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/250x210" alt="the wizard">
-                    <h3>
-                        The Wizard
-                    </h3>
-                    <p>
-                        Reward 1000 gold coins
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                    </p>
-                </div>
-                <div id="captured">
-                    <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/250x210" alt="a hobbit">
-                    <h3>
-                        Hobbit #3
-                    </h3>
-                    <p>
-                        Dead
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                    </p>
-                </div>
-                <div id="mostDangerous">
-                    <img class="img-thumbnail img-fluid" src="http://via.placeholder.com/250x210" alt="a yummy dwarf">
-                    <h3>
-                        Yummy Dwarf
-                    </h3>
-                    <p>
-                        Reward 250 gold coins
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                    </p>
+                <div class="card text-center">
+                    <div class="card-header gray-bg">
+                      <ul class="nav nav-pills card-header-pills d-flex flex-row justify-content-around">
+                        <li class="nav-item mx-auto">
+                            <a class="active" href="#mostWanted">Most Wanted</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                         <a class="" href="#mostDangerous">Most dangerous</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="" href="#captured">Already Captured</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body gray-bg">           
+                       <div class="d-md-flex flex-row">
+                            <div id="mostWanted" class="card w-32 mr-1">
+                                <figure>
+                                    <img class="img-thumbnail img-fluid" src="images/gandalf.png" alt="the wizard">                
+                                    <figcaption class="w-80 p-2 rounded">
+                                            <span class="name align-middle">
+                                                The Wizard
+                                            </span>
+                                            <br>
+                                            <span class="align-middle">
+                                                Reward <strong class="amount">1000</strong> gold coins
+                                            </span>
+                                    </figcaption>
+                                </figure>                  
+                                <div class="card-footer black-bg">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="captured" class="card w-33 mr-1">
+                                <figure>
+                                    <img class="img-thumbnail img-fluid" src="images/aragorn.png" alt="a hobbit">     
+                                    <figcaption class="w-80 p-2 rounded">
+                                            <span class="name align-middle">
+                                                    Human
+                                            </span>
+                                            <br>
+                                            <span class="align-middle">
+                                                    Dead
+                                            </span>
+                                    </figcaption>
+                                </figure>  
+                                <div class="card-footer black-bg">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                    </p>
+                                </div>  
+                            </div>
+                            <div id="mostDangerous" class="card w-33">
+                                <figure>
+                                    <img class="img-thumbnail img-fluid" src="images/gimli.png" alt="a yummy dwarf">                             
+                                        <figcaption class="w-80 p-2 rounded">
+                                            <span class="name align-middle">
+                                                Yummy Dwarf
+                                            </span>
+                                            <br>
+                                            <span class="align-middle">
+                                                    Reward <strong class="amount">250</strong> gold coins
+                                            </span>
+                                        </figcaption>
+                                </figure>
+                                <div class="card-footer black-bg">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <hr>
-            <section id="reward">
-                <h2>
-                    I have captured one of them, how to get my reward?
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id neque a metus dapibus accumsan cursus ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus mattis, eros sit amet volutpat hendrerit, nunc justo varius dolor, ut fringilla orci tortor pulvinar elit. Fusce accumsan lacus in commodo feugiat. 
-                </p>
-                <a href="#contactUS">Contact us</a>
-                <img class="img-fluid" src="http://via.placeholder.com/140x140" alt="group picture of ugly orcs and goblins and balrog">
+            <section id="reward" class="reward black-bg">
+                <div class="card">
+                    <h2 class="card-header">
+                        I have captured one of them, how to get my reward?
+                    </h2>
+                   <div class="media black-bg">
+                        <div class="media-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id neque a metus dapibus accumsan cursus ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus mattis, eros sit amet volutpat hendrerit, nunc justo varius dolor, ut fringilla orci tortor pulvinar elit. Fusce accumsan lacus in commodo feugiat. 
+                            </p>
+                        </div> 
+                        <img class="d-flex ml-3 img-fluid rounded-circle" src="http://via.placeholder.com/90x90" alt="group picture of ugly orcs and goblins and balrog">
+                    </div>
+                </div>
+                <div class="w-25 mx-auto ">
+                    <a href="#contactUS" class="text-center badge nasty-btn light-btn">Contact us</a>
+                </div>
             </section>
             <hr>
-            <section id="bestHunters">
+            <section id="bestHunters" class="hunters gray-bg">
                 <h2>
-                    Best hunters
+                    Our best hunters
                 </h2>
-                <div class="media">
-                    <img class="d-flex align-self-center mr-3 img-fluid" src="http://via.placeholder.com/70x70" alt="a dimwitted but ferocious orc">
-                    <div class="media-body"><h3>
-                        ElvesKiller22
-                    </h3>
-                    <p>2 captures - <a href="#">Profile</a>
+                <div class="row">
+                <div class="col-12 col-sm-12 col-md-6">
+                    <div class="media">
+                    <img class="d-flex align-self-center mr-3 img-fluid rounded" src="http://via.placeholder.com/100x100" alt="a dimwitted but ferocious orc">
+                    <div class="media-body">
+                        <h3>
+                            ElvesKiller22
+                        </h3>
+                    <p>2 captures - <a href="#" class="profileLink">Profile</a>
                     </p>
-                    <a href="#">Like 68K</a>
+                    <a href="#" class="badge nasty-btn dark-btn">Like 68K</a>
                     </div>
                 </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
                 <div class="media">
-                    <img class="d-flex align-self-center mr-3 img-fluid" src="http://via.placeholder.com/70x70" alt="a disgusting goblin with a nasty sadistic grin">
-                    <div class="media-body"><h3>
-                        Goblin45
-                    </h3>
-                    <p>1 capture - <a href="#">Profile</a>
+                    <img class="d-flex align-self-center mr-3 img-fluid rounded" src="http://via.placeholder.com/100x100" alt="a disgusting goblin with a nasty sadistic grin">
+                    <div class="media-body">
+                        <h3>
+                            Goblin45
+                        </h3>
+                    <p>1 capture - <a href="#" class="profileLink">Profile</a>
                     </p>
-                    <a href="#">Like 68K</a>
+                    <a href="#" class="badge nasty-btn dark-btn">Like 68K</a>
                     </div>
                 </div>
+                </div>
+
+            </div>
             </section>
             <hr>
 <!-- About the ring-->
-            <section id="ring" class ="black-bg">
+            <section id="ring" class ="ring black-bg">
                 <h2 class="col-12">
                     About the ring
                 </h2>
@@ -167,42 +213,44 @@
                     <h3 class="card-header">
                         Ring Capabilities
                     </h3>
-                    <p class="card-text">
-                        What can our master Sauron do with the ring?
-                    </p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Feature</th>
-                                <th>Description</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Main</td>
-                                <td>One ring to rule them all</td>
-                            </tr>
-                            <tr>
-                                    <td>Invisibility</td>                            
-                                    <td>You can't see me</td>
-                            </tr>
-                            <tr>
-                                    <td>Power</td>
-                                    <td>Destroy the World</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="gray-bg">
+                        <p class="card-text">
+                            What can our master Sauron do with the ring?
+                        </p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Feature</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Main</td>
+                                    <td>One ring to rule them all</td>
+                                </tr>
+                                <tr>
+                                        <td>Invisibility</td>                            
+                                        <td>You can't see me</td>
+                                </tr>
+                                <tr>
+                                        <td>Power</td>
+                                        <td>Destroy the World</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="card">
                     <h3 class="card-header">
                         Why is the ring awesome?
                     </h3>
-                    <div class="media">
+                    <div class="media gray-bg">
                         <div class="media-body">
                                 My precioooooooooooussssss! Hrk Hrk, we want our preeciooooooouuusss!!<br/>
-                                <span>Gollum</span>
+                                <span class="signature">- Gollum</span>
                         </div>                    
-                        <img class="d-flex ml-3 img-fluid" src="http://via.placeholder.com/110x110" alt="Smeagol aka Gollum The Wannabe Ring-bearer">
+                        <img class="d-flex ml-3 img-fluid circle" src="images/gollum.png" alt="Smeagol aka Gollum The Wannabe Ring-bearer">
                     </div>
                 </div>            
             </section>
@@ -219,15 +267,15 @@
                         </p>
                     </div>
                     <div class="col-md-5 align-self-center">
-                        <img class="img-fluid" src="http://via.placeholder.com/140x140" alt="a group picture of monsters covered in mud and blood">
+                        <img class="img-fluid" src="images/army.png" alt="a group picture of monsters covered in mud and blood">
                     </div>
                 </div>
             <div class="row justify-content-between">
                 <div class="col-6 col-md-6 align-self-center">
-                    <img class="img-fluid" src="http://via.placeholder.com/140x140" alt="a group picture of monsters covered in mud and blood">
+                    <img class="img-fluid" src="images/weneedyou-1.png" alt="a group picture of monsters covered in mud and blood">
                 </div>
                 <div class="col-6 col-md-6 align-self-center moreLink">
-                    <p>More info on
+                    <p class="text-center">More info on <br>
                         <a class="badge nasty-btn dark-btn" href="#">SAURONRULESTHEMALL.com</a>
                     </p>
                 </div>
@@ -236,8 +284,8 @@
            
 
 <!-- Contact Us-->            
-            <section id="contactUs">
-                <div class="row justify-content-between black-bg">
+            <section id="contactUs" class="black-bg">
+                <div class="row justify-content-between">
                     <hr>
                     <div class="col-md-6 align-self-center">
                         <h2>
@@ -271,7 +319,7 @@
                         </form>           
                     </div>
                     <div class="col-md-6 align-self-center">
-                        <img class="img-fluid" src="http://via.placeholder.com/800x800" alt="a map of Mordor"> 
+                        <img class="img-fluid" src="images/map.png" alt="a map of Mordor"> 
                     </div>
                 </div>
             </section>

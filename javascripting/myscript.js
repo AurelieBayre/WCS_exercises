@@ -1,11 +1,9 @@
-
-
-function prompting(){
-    let answer = window.prompt("Hey mon ami ! Tu aimes ça les patates ?");
+const prompting = () => {
+    const answer = window.prompt("Hey mon ami ! Tu aimes ça les patates ?");
     return answer;
 }
 
-function check(something) {
+const check = (something) => {
     let success = something === "oui" || something === "Oui"; 
     let fail = something === "non" || something === "Non";
     //ternary operator with multiple cases:
@@ -14,7 +12,7 @@ function check(something) {
             : neither()
 }
 
-function printPotatoes() {
+const printPotatoes = () => {
    let potatoString = "#"
     for (let i = 0; i < 7; i++){
         //concat the string with a carriage return:
@@ -24,13 +22,8 @@ function printPotatoes() {
     }
 }
 
-function no(){
-    alert("Mais Dieu du Ciel, QUI n'aime pas les patates???")
-}
+const no = () => alert("Mais Dieu du Ciel, QUI n'aime pas les patates???")
 
-function neither() {
-    alert("je vous sens comme tiraillé-e..")
-}
-
+const neither = () => alert("je vous sens comme tiraillé..")
 
 check(prompting())
