@@ -119,12 +119,23 @@ hr {
 
 /* Caroussel */
 
-.carousel-item {
+/*.first {
     height: 400px;
     background-image: url("images/dark_vador.jpg");
     background-position: center;
 }
+.second {
+    height: 400px;
+    background-image: url("images/witch.jpg");
+    background-position: center;
+}
 
+.third {
+    height: 400px;
+    background-image: url("images/ursula.jpg");
+    background-position: center;
+}
+*/
 .carousel-caption {
     position: absolute;
 
