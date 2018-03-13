@@ -5,12 +5,12 @@
 
 
 // pour déterminer l'année en cours:
-const actualDate = new Date()
+let actualDate = new Date()
 
-const actualYear = actualDate.getFullYear()
+let actualYear = actualDate.getFullYear()
 
 //les variables du profil:
-const city = "Ulaanbaatar"
+let city = "Ulaanbaatar"
 
 const dateOfBirth = {
     day: 6,
@@ -18,7 +18,7 @@ const dateOfBirth = {
     year: 1902
 }
 
-const age = actualYear - dateOfBirth.year
+let age = actualYear - dateOfBirth.year
 
 //la phrase
 const sentence = `I live in ${city} and I'm ${age} old. 
