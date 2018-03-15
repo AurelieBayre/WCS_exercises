@@ -9,8 +9,6 @@
 // turn causes the <a>use-CORS-preflight flag</a> to be set.)
 // *from : https://twitter.com/xhrstandard/status/895574019772227584
 
-
-
 function getJSON(str) {
     return new Promise((resolve, reject) => {
         const req = new XMLHttpRequest();
@@ -26,13 +24,13 @@ let weatherApi = "https://api.openweathermap.org/data/2.5/weather?q=Paris&APPID=
 const url = "https://api.openweathermap.org/data/2.5/weather?q=" //this is the format when you want a JSON
 const key = "&APPID=724802524fa5af818d3036fbe974d275"
 
-function validateHandler () {
-    console.log(this)
+function validateHandler() {
+    console.log(weatherApi)
     const form = document.getElementById("locationForm");
     const city = form.elements["city"].value;
     const urlRequest = url+city+key
     //console.log(city)
-    //console.log("my request url: ", urlRequest)
+    console.log("my request url: ", urlRequest)
     getJSON(urlRequest) 
     .then((data) => {
     console.log(JSON.parse(data)) // là ça ne marche pas QUAND ON EST DANS validateHandler... il me concatène mon url locale, plus l'url de la request.... ???
