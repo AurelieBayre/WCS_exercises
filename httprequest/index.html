@@ -27,7 +27,11 @@
                 </div>
             -->
             </div>
-            <button id="submitButton" type="submit" class="btn btn-primary" onclick="validateHandler()">Valider</button>
+            <!-- YOUR ATTENTION PLEASE - reminder to future self -
+                Submission will mess up the request url if you use : type='submit'. 
+                USE type='button' !!!!!!!
+            -->
+            <button id="submitButton" type="button" class="btn btn-primary" onclick="return validateHandler()">Valider</button>
         </form>
     </div>
     <!-- Optional JavaScript -->
