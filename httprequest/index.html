@@ -31,8 +31,13 @@
                 Submission will mess up the request url if you use : type='submit'. 
                 USE type='button' !!!!!!!
             -->
-            <button id="submitButton" type="button" class="btn btn-primary" onclick="return validateHandler()">Valider</button>
+            <button id="submitButton" type="button" class="btn btn-primary" onclick="validateHandler()">Valider</button>
         </form>
+        <div id="weather-info">
+            <h1>The weather in <span id="userLocation"></span></h1>
+            <p>Temperature: <span id="userTemp"></span></p>
+            <p>In brief : <span id="summary"></span></p></p>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
