@@ -1,15 +1,4 @@
-// Please read this:
-// For security reasons, browsers restrict cross-origin HTTP requests initiated from within scripts. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. 
-// This means that a web application using those APIs can only request HTTP resources from the same domain the application was loaded from unless CORS headers are used.
-// *from: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-
-// +<p class="note no-backref" id=event-listeners-and-preflight>Registering one or more event listeners
-// on an {{XMLHttpRequestUpload}} object will result in a <a>CORS-preflight request</a>. (That is
-// because registering an event listener causes the <a>upload listener flag</a> to be set, which in
-// turn causes the <a>use-CORS-preflight flag</a> to be set.)
-// *from : https://twitter.com/xhrstandard/status/895574019772227584
-
-function getJSON(str) {
+const getJSON = (str) => {
     return new Promise((resolve, reject) => {
         const req = new XMLHttpRequest();
         req.open('GET', str, true);
@@ -19,16 +8,19 @@ function getJSON(str) {
     });
 }
 
-let pokemon = "http://pokeapi.co/api/v2/pokemon/45"
-let weatherApi = "https://api.openweathermap.org/data/2.5/weather?q=Paris&APPID=724802524fa5af818d3036fbe974d275"
+// TEST:
+// let weatherApi = "https://api.openweathermap.org/data/2.5/weather?q=Paris&APPID=724802524fa5af818d3036fbe974d275"
+
 const url = "https://api.openweathermap.org/data/2.5/weather?q=" //this is the format when you want a JSON
 const key = "&APPID=724802524fa5af818d3036fbe974d275"
 
+//function without parameters written as a const?
 function validateHandler() {
-    console.log(weatherApi)
+    //console.log(weatherApi)
     const form = document.getElementById("locationForm");
     const city = form.elements["city"].value;
     const urlRequest = url+city+key
+    const metrics = "&units=metric"
     //console.log(city)
     console.log("my request url: ", urlRequest)
     getJSON(urlRequest) 
